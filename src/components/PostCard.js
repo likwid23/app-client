@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import moment from 'moment'
 
 import { AuthContext } from '../context/auth'
-import LikeButton from './LikeButton'
 import DeleteButton from '../components/DeleteButton'
 
 

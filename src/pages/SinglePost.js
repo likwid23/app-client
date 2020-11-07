@@ -24,7 +24,7 @@ const thisPost = data.getPost;
     if (!thisPost) {
       postMarkup = <p>Loading post..</p>
     } else {
-      const { id, body, createdAt, username, comments, likes, likesCount, commentCount } = thisPost;
+      const { id, body, createdAt, username, likes, likesCount, commentCount } = thisPost;
 
         postMarkup = (
             <Grid>
